@@ -1,0 +1,2 @@
+rootProject.name='Lino Connection'
+include ':app'
