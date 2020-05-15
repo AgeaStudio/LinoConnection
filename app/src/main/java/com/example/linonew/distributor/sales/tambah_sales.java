@@ -1,4 +1,4 @@
-package com.example.linonew.distributor;
+package com.example.linonew.distributor.sales;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.linonew.R;
 
-public class tambah_katalog extends AppCompatActivity {
+public class tambah_sales extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tambah_katalog);
+        setContentView(R.layout.activity_tambah_sales);
     }
 }

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg"
-    tools:context=".distributor.MenuActivity">
+    tools:context=".MenuActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout2"

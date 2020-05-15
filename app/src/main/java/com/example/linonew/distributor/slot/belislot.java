@@ -1,4 +1,4 @@
-package com.example.linonew.distributor;
+package com.example.linonew.distributor.slot;
 
 import androidx.appcompat.app.AppCompatActivity;
 

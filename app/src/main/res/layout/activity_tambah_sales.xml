@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".distributor.sales.tambah_sales">
+
+    <LinearLayout
+        android:id="@+id/linearLayout13"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/bg2"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btnbgclick"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_keyboard_arrow_left_black_24dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Daftar Sales"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout13">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:id="@+id/txtidsales"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="ID Sales"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etidsales"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/textbox"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:id="@+id/txtjabatan"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Jabatan"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etjabatan"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/textbox"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:id="@+id/txtnamasales"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Sales"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etnamasales"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/textbox"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:id="@+id/txtusername"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Username"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etusername"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/textbox"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:id="@+id/txtnotelepon"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="No Telepon"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etnotelepon"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/textbox"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:id="@+id/txtnoktp"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="No KTP/Paspor"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etnoktp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/textbox"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:id="@+id/txtkodepos"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kode Pos"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etkodepos"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/textbox"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:id="@+id/txtnegara"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Negara"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etnegara"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/textbox"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:id="@+id/txtpulau"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Pulau"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etpulau"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/textbox"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:id="@+id/txtprovinsi"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Provinsi"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etprovinsi"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/textbox"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:id="@+id/txtkota"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kota"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etkota"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/textbox"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:id="@+id/txtkabupaten"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kabupaten"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etkabupaten"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/textbox"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:id="@+id/txtalamatlengkap"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Alamat Lengkap"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etalamatlengkap"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/textbox"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:id="@+id/txtrayonisasisales"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rayonisasi Sales"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etrayonisasisales"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/textbox"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:id="@+id/txtnoakunbank"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="No Akun Bank"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etnoakunbank"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/textbox"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:id="@+id/txtnamabank"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Bank"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etnamabank"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/textbox"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:id="@+id/txtnamapemilikbank"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Pemilik Bank"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etnamapemilikbank"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/textbox"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:id="@+id/txtnoreksales"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="No Rek Sales"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etnoreksales"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/textbox"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:id="@+id/txtfotosales"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Foto Sales"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/ic_launcher" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+
+                <Button
+                    android:id="@+id/btnbatal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnclick"
+                    android:text="Batal"
+                    android:textColor="@color/bg" />
+
+                <Button
+                    android:id="@+id/btnsimpan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnclick"
+                    android:text="Simpan"
+                    android:textColor="@color/bg" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg"
-    tools:context=".distributor.Katalog">
+    tools:context=".distributor.slot.Katalog">
 
     <LinearLayout
         android:id="@+id/linearLayout11"
