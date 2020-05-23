@@ -6,48 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".distributor.sales.tambah_sales">
 
-    <LinearLayout
-        android:id="@+id/linearLayout13"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="@color/bg2"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <ImageButton
-            android:id="@+id/imageButton10"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:background="@drawable/btnbgclick"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_keyboard_arrow_left_black_24dp" />
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
-            android:text="Daftar Sales"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
-    </LinearLayout>
-
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout13">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:paddingTop="8dp"
             android:paddingBottom="8dp">
@@ -58,7 +27,7 @@
                 android:orientation="horizontal"
                 android:paddingLeft="16dp"
                 android:paddingTop="8dp"
-                android:paddingRight="8dp"
+                android:paddingRight="16dp"
                 android:paddingBottom="16dp">
 
                 <TextView
@@ -87,7 +56,7 @@
                 android:orientation="horizontal"
                 android:paddingLeft="16dp"
                 android:paddingTop="8dp"
-                android:paddingRight="8dp"
+                android:paddingRight="16dp"
                 android:paddingBottom="16dp">
 
                 <TextView
@@ -115,7 +84,7 @@
                 android:orientation="horizontal"
                 android:paddingLeft="16dp"
                 android:paddingTop="8dp"
-                android:paddingRight="8dp"
+                android:paddingRight="16dp"
                 android:paddingBottom="16dp">
 
                 <TextView
@@ -143,7 +112,7 @@
                 android:orientation="horizontal"
                 android:paddingLeft="16dp"
                 android:paddingTop="8dp"
-                android:paddingRight="8dp"
+                android:paddingRight="16dp"
                 android:paddingBottom="16dp">
 
                 <TextView
@@ -171,7 +140,7 @@
                 android:orientation="horizontal"
                 android:paddingLeft="16dp"
                 android:paddingTop="8dp"
-                android:paddingRight="8dp"
+                android:paddingRight="16dp"
                 android:paddingBottom="16dp">
 
                 <TextView
@@ -199,7 +168,7 @@
                 android:orientation="horizontal"
                 android:paddingLeft="16dp"
                 android:paddingTop="8dp"
-                android:paddingRight="8dp"
+                android:paddingRight="16dp"
                 android:paddingBottom="16dp">
 
                 <TextView
@@ -227,7 +196,7 @@
                 android:orientation="horizontal"
                 android:paddingLeft="16dp"
                 android:paddingTop="8dp"
-                android:paddingRight="8dp"
+                android:paddingRight="16dp"
                 android:paddingBottom="16dp">
 
                 <TextView
@@ -255,7 +224,7 @@
                 android:orientation="horizontal"
                 android:paddingLeft="16dp"
                 android:paddingTop="8dp"
-                android:paddingRight="8dp"
+                android:paddingRight="16dp"
                 android:paddingBottom="16dp">
 
                 <TextView
@@ -285,7 +254,7 @@
                 android:orientation="horizontal"
                 android:paddingLeft="16dp"
                 android:paddingTop="8dp"
-                android:paddingRight="8dp"
+                android:paddingRight="16dp"
                 android:paddingBottom="16dp">
 
                 <TextView
@@ -313,7 +282,7 @@
                 android:orientation="horizontal"
                 android:paddingLeft="16dp"
                 android:paddingTop="8dp"
-                android:paddingRight="8dp"
+                android:paddingRight="16dp"
                 android:paddingBottom="16dp">
 
                 <TextView
@@ -341,7 +310,7 @@
                 android:orientation="horizontal"
                 android:paddingLeft="16dp"
                 android:paddingTop="8dp"
-                android:paddingRight="8dp"
+                android:paddingRight="16dp"
                 android:paddingBottom="16dp">
 
                 <TextView
@@ -369,7 +338,7 @@
                 android:orientation="horizontal"
                 android:paddingLeft="16dp"
                 android:paddingTop="8dp"
-                android:paddingRight="8dp"
+                android:paddingRight="16dp"
                 android:paddingBottom="16dp">
 
                 <TextView
@@ -397,7 +366,7 @@
                 android:orientation="horizontal"
                 android:paddingLeft="16dp"
                 android:paddingTop="8dp"
-                android:paddingRight="8dp"
+                android:paddingRight="16dp"
                 android:paddingBottom="16dp">
 
                 <TextView
@@ -427,7 +396,7 @@
                 android:orientation="horizontal"
                 android:paddingLeft="16dp"
                 android:paddingTop="8dp"
-                android:paddingRight="8dp"
+                android:paddingRight="16dp"
                 android:paddingBottom="16dp">
 
                 <TextView
@@ -455,7 +424,7 @@
                 android:orientation="horizontal"
                 android:paddingLeft="16dp"
                 android:paddingTop="8dp"
-                android:paddingRight="8dp"
+                android:paddingRight="16dp"
                 android:paddingBottom="16dp">
 
                 <TextView
@@ -483,7 +452,7 @@
                 android:orientation="horizontal"
                 android:paddingLeft="16dp"
                 android:paddingTop="8dp"
-                android:paddingRight="8dp"
+                android:paddingRight="16dp"
                 android:paddingBottom="16dp">
 
                 <TextView
@@ -511,7 +480,7 @@
                 android:orientation="horizontal"
                 android:paddingLeft="16dp"
                 android:paddingTop="8dp"
-                android:paddingRight="8dp"
+                android:paddingRight="16dp"
                 android:paddingBottom="16dp">
 
                 <TextView
@@ -538,7 +507,7 @@
                 android:layout_height="match_parent"
                 android:paddingLeft="16dp"
                 android:paddingTop="8dp"
-                android:paddingRight="8dp"
+                android:paddingRight="16dp"
                 android:paddingBottom="16dp">
 
                 <TextView
@@ -566,7 +535,7 @@
                 android:orientation="horizontal"
                 android:paddingLeft="16dp"
                 android:paddingTop="8dp"
-                android:paddingRight="8dp"
+                android:paddingRight="16dp"
                 android:paddingBottom="16dp">
 
                 <TextView
@@ -578,8 +547,8 @@
 
                 <ImageView
                     android:id="@+id/imageView17"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
                     app:srcCompat="@mipmap/ic_launcher" />
 
             </LinearLayout>
@@ -616,9 +585,42 @@
                     android:text="Simpan"
                     android:textColor="@color/bg" />
             </LinearLayout>
-
         </LinearLayout>
+
+
     </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout13"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/bg2"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btnbgclick"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_keyboard_arrow_left_black_24dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Daftar Sales"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
