@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".distributor.sales.tambah_sales"></activity>
+        <activity android:name=".distributor.sales.rekap_komisi_sales"></activity>
+        <activity android:name=".distributor.sales.atur_persenan_komisi_barang" />
+        <activity android:name=".distributor.sales.komisi_sales" />
+        <activity android:name=".distributor.sales.daftar_list_sales_bonus" />
+        <activity android:name=".distributor.sales.biografi_toko" />
+        <activity android:name=".distributor.sales.kunjungan_toko" />
+        <activity android:name=".distributor.sales.daftar_list_sales_outlet" />
+        <activity android:name=".distributor.sales.biografi_sales" />
+        <activity android:name=".distributor.sales.tambah_sales" />
         <activity android:name=".distributor.sales.daftar_sales" />
         <activity android:name=".distributor.sales.keterangan_sales" />
         <activity android:name=".distributor.slot.PreviewDeskripsiProduk" />
