@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".distributor.sales.rekap_komisi_sales"></activity>
+        <activity android:name=".distributor.sales.kumpulan_nota"></activity>
+        <activity android:name=".distributor.sales.daftar_toko" />
+        <activity android:name=".distributor.sales.daftar_list_sales_nota" />
+        <activity android:name=".distributor.sales.kirim_uang" />
+        <activity android:name=".distributor.sales.rekap_komisi_sales" />
         <activity android:name=".distributor.sales.atur_persenan_komisi_barang" />
         <activity android:name=".distributor.sales.komisi_sales" />
         <activity android:name=".distributor.sales.daftar_list_sales_bonus" />
