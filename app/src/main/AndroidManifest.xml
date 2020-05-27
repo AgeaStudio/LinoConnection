@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".distributor.sales.nota_penjualan"></activity>
+        <activity android:name=".distributor.sales.nota_invoice"></activity>
+        <activity android:name=".distributor.sales.nota_pembayaran" />
+        <activity android:name=".distributor.sales.nota_retur" />
+        <activity android:name=".distributor.sales.nota_penjualan" />
         <activity android:name=".distributor.sales.nota_jalan" />
         <activity android:name=".distributor.sales.kumpulan_nota" />
         <activity android:name=".distributor.sales.daftar_toko" />
